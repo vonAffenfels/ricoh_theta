@@ -170,7 +170,7 @@ public class RicohThetaPlugin implements FlutterPlugin, MethodCallHandler {
   }
 
   private void _handleDisconnect(MethodCall call, Result result) {
-    // TODO
+    result.success(null);
   }
 
   private void _handleTakePicture(MethodCall call, MethodChannel.Result result) {
